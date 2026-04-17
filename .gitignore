@@ -1,0 +1,6 @@
+venv/
+*.nc
+*.grib
+__pycache__/
+*.pyc
+*.idx
