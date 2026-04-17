@@ -6,7 +6,7 @@ c.retrieve(
     'reanalysis-era5-single-levels',
     {
         'product_type': 'reanalysis',
-        'variable': '2m_temperature',
+        'variable': ['2m_temperature', '10m_u_component_of_wind', '10m_v_component_of_wind'],
         'year': '2026',
         'month': '04',
         'day': ['01', '02', '03'],
@@ -14,7 +14,7 @@ c.retrieve(
         'area': [60, -10, 50, 2],  # North, West, South, East - roughly UK
         'format': 'netcdf',
     },
-    'era5_uk_temp.nc'
+    'era5_uk_temp_wind.nc'
 )
 
 print("Download complete!")
