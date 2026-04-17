@@ -39,7 +39,7 @@ ax.add_feature(cfeature.COASTLINE.with_scale('10m'))
 ax.add_feature(cfeature.BORDERS)
 ax.gridlines(draw_labels=True)
 
-ax.set_title(f'ERA5 2m Temperature (°C) and 10m Wind — {time_str}')
+ax.set_title(f'ERA5 2m Temperature (°C) and 10m Wind - {time_str}')
 
 plt.savefig('era5_temp_wind.png', dpi=150, bbox_inches='tight')
 print("Plot saved as era5_temp_wind.png")
