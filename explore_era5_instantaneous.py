@@ -6,9 +6,6 @@ import numpy as np
 
 ds = xr.open_dataset('era5_uk_temp_wind.nc')
 
-print(ds)
-
-# Select first time step
 t2m = ds['t2m'].isel(valid_time=0) - 273.15
 u10 = ds['u10'].isel(valid_time=0)
 v10 = ds['v10'].isel(valid_time=0)

@@ -10,7 +10,7 @@ c.retrieve(
         'year': '2026',
         'month': '04',
         'day': ['07', '08', '09', '10'],
-        'time': ['00:00', '06:00', '12:00', '18:00'],
+        'time': ['00:00', '03:00', '06:00', '09:00', '12:00', '15:00', '18:00', '21:00'],
         'area': [60, -10, 50, 2],  # North, West, South, East boundaries of box (lat_max, lon_min, lat_min, lon_max) - roughly UK
         'format': 'netcdf',
     },
